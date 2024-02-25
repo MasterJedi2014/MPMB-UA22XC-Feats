@@ -362,7 +362,7 @@ FeatsList["medium armor master ua22xc"] = {
 	removeeval : function () {
 		tDoc.resetForm(['Medium Armor Max Mod']);
 		ApplyArmor(What("AC Armor Description"));
-	}
+	},
 	descriptionFull : "You have practiced moving in medium armor to gain the following benefits: \n \u2022 Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20. \n \u2022 Dexterous Wearer. While you are wearing Medium Armor, you can add 3, rather than 2, to your AC if you have a Dexterity score of 16 or higher.",
 	description : " \u2022 Ability Score Increase. My Strength or Dexterity increases by 1, to a max of 20. \n \u2022 Dexterous Wearer. While wearing Medium Armor, I can add +3 instead of +2 to my AC.",
 	choices : ['Strength +1', 'Dexterity +1'],
